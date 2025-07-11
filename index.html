@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UploadDownload DApp</title>
+</head>
+<body>
+  <h1>Upload File to IPFS + Blockchain</h1>
+  <input type="file" id="fileInput" />
+  <button onclick="uploadFile()">Upload</button>
+
+  <h2>Uploaded Files:</h2>
+  <ul id="fileList"></ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+  <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
